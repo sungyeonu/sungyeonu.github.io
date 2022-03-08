@@ -4,6 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import awsCloudPractionerLogo from "./assets/images/awsCloudPractionerLogo.png";
+import braveIncLogo from "./assets/images/braveVirtual.jpeg";
 import cnLogo from "./assets/images/cnLogo.png";
 import drexelLogo from "./assets/images/drexelLogo.png";
 import greentoolLogo from "./assets/images/greentoolLogo.jpg";
@@ -30,7 +31,7 @@ const greeting = {
     "I'm a passionate Software Developer 🚀 based in Virginia specializing in building Full-Stack web applications."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1SpZDWENuLHuJoWxeSgZUlJbyDLn_a5YD/view?usp=sharing",
+    "https://drive.google.com/file/d/1go1dvTAh1ZrWZzic_fdiOnM6Wdx26bPQ/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -128,7 +129,7 @@ const workExperiences = {
     {
       role: "Web Developer",
       company: "Brave Virtual Worlds",
-      // companylogo: spatialFrontIncLogo,
+      companylogo: braveIncLogo,
       date: "Dec 2021 - Present",
       descBullets: [
         "Develop landing and portal page",
